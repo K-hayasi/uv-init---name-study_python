@@ -31,3 +31,10 @@ def fizz_buzz(n, x, y):
 fizz_buzz(3, 3, 5)
 fizz_buzz(5, 3, 5)
 fizz_buzz(16, 3, 5)
+
+import numpy as np
+import matplotlib.pyplot as plt
+x = np.arange(0, 6, 0.1)
+y = np.sin(x)
+plt.plot(x, y)
+plt.show()
